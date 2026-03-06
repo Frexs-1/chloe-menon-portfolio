@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ecb613",
+                        "background-light": "#f8f8f6",
+                        "background-dark": "#221d10",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="layout-container flex h-full grow flex-col">
+<div class="max-w-[960px] mx-auto w-full">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 px-6 py-4 md:px-10">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_330)">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_6_330"><rect fill="white" height="48" width="48"></rect></clippath>
+</defs>
+</svg>
+</div>
+<a href="index.html">
+    <h1 class="text-xl font-bold leading-tight tracking-tight hover:text-primary transition-colors">Chloé Menon</h1>
+</a>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="portfolio-tatouage.html">Portfolio</a>
+<a class="text-sm font-bold text-primary border-b-2 border-primary" href="#">À Propos</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="contact.html">Contact</a>
+</nav>
+<button class="flex size-10 cursor-pointer items-center justify-center rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-xl">share</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-12 py-12 px-6">
+<section class="flex flex-col items-center gap-8 md:flex-row md:items-start md:gap-12">
+<div class="relative group shrink-0">
+<div class="absolute -inset-2 bg-primary/20 rounded-full blur-xl group-hover:bg-primary/30 transition-all"></div>
+<div class="relative size-48 md:size-64 rounded-full overflow-hidden border-4 border-primary/20 bg-primary/5">
+<img alt="Portrait de Chloé Menon" class="w-full h-full object-cover" data-alt="Professional portrait of Chloe Menon with artistic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVYSmNu2qdMEDEPyrX4QR4CwVev8hlgppXWdh37ibkWAl0Rlg13rxlRp0uHxT7qwYpY2KIm5gdd99Rmc7TuQmWwpt2An_IQqpIpNixM-MQSfHCEgv-acsj6iDREH3cJtEEYseAkvKfdGSTKwcfNskA6qmrySkHVyv3cP74yXfVhsXdnE4iq8sOU8ExiQOksDk5AIWutvdfz4waVuDId_qWmwiqERwESKsp2DGb0BK7_EXejWyzVE-SBR2C1iMMreea-rwT9Qjadug"/>
+</div>
+</div>
+<div class="flex flex-col gap-4 text-center md:text-left pt-4">
+<span class="text-primary font-bold tracking-widest text-xs uppercase">Artiste &amp; Esthéticienne</span>
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">Chloé Menon</h2>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-xl">
+                            "Révéler la beauté sous la surface, qu'elle soit organique ou minérale."
+                        </p>
+<div class="flex items-center justify-center md:justify-start gap-2 text-slate-500">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-sm font-medium">Paris, France</span>
+</div>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-2 gap-10 border-t border-primary/10 pt-12">
+<div class="flex flex-col gap-6">
+<h3 class="text-2xl font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">auto_awesome</span>
+                            Mon Histoire
+                        </h3>
+<div class="space-y-4 text-slate-700 dark:text-slate-300 leading-relaxed">
+<p>
+                                Mon parcours est une exploration constante de la texture. Entre le soin de la peau et la restauration de murs anciens, je vois une même quête : celle de l'authenticité et de la matière brute.
+                            </p>
+<p>
+                                Diplômée en esthétique supérieure puis formée aux techniques ancestrales de la chaux en Italie, j'ai passé dix ans à naviguer entre ces deux mondes apparemment opposés. Aujourd'hui, je fusionne ces savoir-faire pour proposer une vision holistique de l'esthétique.
+                            </p>
+</div>
+</div>
+<div class="bg-primary/5 rounded-xl p-8 border border-primary/10">
+<h3 class="text-xl font-bold mb-6">Expertise &amp; Parcours</h3>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-lg h-fit">
+<span class="material-symbols-outlined text-primary">face</span>
+</div>
+<div>
+<p class="font-bold">Soin Dermo-Esthétique</p>
+<p class="text-sm text-slate-500">Spécialiste de l'épiderme et de la lumière naturelle.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-lg h-fit">
+<span class="material-symbols-outlined text-primary">foundation</span>
+</div>
+<div>
+<p class="font-bold">Matiériste-Coloriste</p>
+<p class="text-sm text-slate-500">Restauration de murs anciens et enduits à la chaux.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-lg h-fit">
+<span class="material-symbols-outlined text-primary">brush</span>
+</div>
+<div>
+<p class="font-bold">Design de Texture</p>
+<p class="text-sm text-slate-500">Création de surfaces architecturales sur-mesure.</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="flex flex-col gap-8">
+<h3 class="text-2xl font-bold text-center">L'Intersection des Mondes</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="relative h-64 rounded-xl overflow-hidden group cursor-pointer">
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent z-10"></div>
+<img alt="Détail de peau" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of skin texture with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa5s3VD6dlJSOMnn-cD-2q6fj6nfuFS4WOK2nFB6IYHEmJcNZH15NWiH47yEdobeex4E5GA0d6jJF2MmtpPR1fb2YKQ7BMGJTRlgxhCddIhHHC0ngxIS4qVEKF9ybuDdKD6V_9eaV4brYsjxIcJoikO_-1Y4rxYD--ARg8CI6tACrce6QWCzUlmMNQ5LBJwcYDYgcf8sTFf0ehA3AeBem9A8P8K00d6Wyv3WyWttfYhfaStAT5NZ8-U14D5UfL_jq9N_SoAZP8pzE"/>
+<div class="absolute bottom-4 left-4 z-20">
+<p class="text-white font-bold text-lg">La Peau</p>
+<p class="text-slate-300 text-sm">Épiderme et Lumière</p>
+</div>
+</div>
+<div class="relative h-64 rounded-xl overflow-hidden group cursor-pointer">
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent z-10"></div>
+<img alt="Texture de mur ancien" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ancient textured lime wall with earthy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBprBe3yUhKGdDpllZjnjoZku45LP3XJqmkvRQZEFfOaes9h4PsyxveqE7AnXd3rBhytNaGIFq45GD0E72ErAaaxuc7AwRMeQygQsRAMC0MyZO8TxJHysIU5RgpDxNUZiEDr6y4xhoc3Q3F9Wb62-KT5bMFxmEXbEjvlfmV0ioVPRHJ6_xK1V4KbNehw0vMmV7ONWVkt0MyB7lcvSQaOsQOM8S1X56RWp4h3Hs4SZDSPuWH4iod3QFSbyKbE0LwDKon0IvRSl-L710"/>
+<div class="absolute bottom-4 left-4 z-20">
+<p class="text-white font-bold text-lg">Le Mur</p>
+<p class="text-slate-300 text-sm">Chaux et Matière</p>
+</div>
+</div>
+</div>
+<div class="p-8 bg-primary text-background-dark rounded-xl text-center">
+<h4 class="text-2xl font-black mb-4">Ma Philosophie</h4>
+<p class="text-lg font-medium leading-relaxed italic">
+                            "Travailler une peau ou restaurer une fresque demande la même patience, la même écoute de la matière. Il s'agit de respecter l'histoire du support tout en lui redonnant son éclat originel."
+                        </p>
+</div>
+</section>
+<section class="flex flex-col gap-6 py-12 border-t border-primary/10 items-center">
+<h3 class="text-xl font-bold">Collaborons ensemble</h3>
+<p class="text-slate-500 text-center max-w-md">Vous avez un projet de restauration ou souhaitez un accompagnement esthétique unique ?</p>
+<div class="flex gap-4">
+<a href="contact.html">
+    <button class="bg-primary text-background-dark px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity">
+        Me Contacter
+    </button>
+</a>
+<a href="portfolio-tatouage.html">
+    <button class="border border-primary text-primary px-8 py-3 rounded-lg font-bold hover:bg-primary/5 transition-colors">
+        Portfolio
+    </button>
+</a>
+</div>
+</section>
+</main>
+<footer class="border-t border-primary/10 px-10 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
+<p>© 2024 Chloé Menon. Tous droits réservés.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-primary transition-colors" href="#">Mentions Légales</a>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
