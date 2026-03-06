@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact &amp; Project Inquiry - Chloé Menon</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ecb613",
+                        "background-light": "#f8f8f6",
+                        "background-dark": "#181611",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif", "serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+        h1, h2, h3, .font-display {
+            font-family: 'Noto Serif', serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Top Navigation Bar -->
+<header class="border-b border-slate-200 dark:border-primary/20 px-6 lg:px-20 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<svg class="size-8" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<a href="index.html">
+    <h2 class="text-xl font-display font-bold tracking-tight">Chloé Menon</h2>
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="portfolio-tatouage.html">Portfolio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="a-propos.html">À Propos</a>
+<a class="text-sm font-medium text-primary" href="#">Contact</a>
+</nav>
+<button class="bg-primary text-background-dark px-6 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all">
+                Inquire
+            </button>
+</div>
+</header>
+<main class="flex-grow flex flex-col lg:flex-row max-w-7xl mx-auto w-full">
+<!-- Left Side: Atmospheric Visual -->
+<div class="lg:w-1/2 w-full p-6 lg:p-12 flex flex-col justify-center">
+<div class="relative group overflow-hidden rounded-xl aspect-[4/5] lg:aspect-auto h-full">
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent z-10"></div>
+<img alt="Chloé Menon at work" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close up of artist hand painting gold leaf texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtEpDUV6JUCjQTMGUfHD_j2H2wMF-pxibbLHvl5P-CYvRGC43wO3ezl_SY8vvQ1d7Xm-nHCXVA4dVCXy74oZyQfjKa2jkUQuf3Slor2t-Kl78L8SGCd5YJaxYAoWaqad71lLXt_oY8NkNFd5u6FdMo7scyRGwPflHWLV6JoFwuC9myQVPsH7cJsfiDL9Cps3F9xV5OJjcVug_b9VMF0bPFeI8NJo9Q5OQ7sg45kAX1VKDQcJqnaTdslgo4dtBp73UkTMxkt2d9x6s"/>
+<div class="absolute bottom-10 left-10 z-20">
+<h1 class="text-4xl lg:text-5xl font-display font-bold text-white mb-4">Contact &amp;<br/>Project Inquiry</h1>
+<p class="text-slate-200 max-w-sm">Bring your vision to life with bespoke decorative painting and master craftsmanship.</p>
+</div>
+</div>
+</div>
+<!-- Right Side: Contact Form -->
+<div class="lg:w-1/2 w-full p-6 lg:p-12 flex flex-col justify-center">
+<div class="max-w-md mx-auto w-full">
+<form action="#" class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2 font-display" for="full-name">Full Name</label>
+<input class="w-full bg-slate-100 dark:bg-primary/5 border border-slate-300 dark:border-primary/20 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-400" id="full-name" name="full-name" placeholder="Enter your name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2 font-display" for="email">Email Address</label>
+<input class="w-full bg-slate-100 dark:bg-primary/5 border border-slate-300 dark:border-primary/20 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-400" id="email" name="email" placeholder="email@example.com" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2 font-display" for="project-type">Project Type</label>
+<select class="w-full bg-slate-100 dark:bg-primary/5 border border-slate-300 dark:border-primary/20 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all appearance-none" id="project-type" name="project-type">
+<option value="mural">Custom Mural</option>
+<option value="texture">Texture &amp; Finish</option>
+<option value="restoration">Fine Art Restoration</option>
+<option value="other">Other Inquiry</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2 font-display" for="description">Project Description</label>
+<textarea class="w-full bg-slate-100 dark:bg-primary/5 border border-slate-300 dark:border-primary/20 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-400 resize-none" id="description" name="description" placeholder="Tell me about your space and vision..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-background-dark py-4 rounded-lg font-bold text-lg hover:shadow-lg hover:shadow-primary/20 transition-all flex items-center justify-center gap-2 group" type="submit">
+<span>Send Message</span>
+<span class="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">send</span>
+</button>
+</form>
+</div>
+</div>
+</main>
+<!-- Footer Section -->
+<footer class="mt-auto border-t border-slate-200 dark:border-primary/10 py-12 px-6 lg:px-20 bg-slate-50 dark:bg-background-dark/50">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col items-center md:items-start gap-2">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">mail</span>
+<a class="font-display font-medium text-slate-900 dark:text-slate-100 hover:text-primary transition-colors" href="mailto:hello@chloemenon.com">hello@chloemenon.com</a>
+</div>
+<p class="text-xs text-slate-500 dark:text-slate-400">© 2024 Chloé Menon Decorative Arts. All rights reserved.</p>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-xl">camera</span>
+<span class="text-sm font-medium">Instagram</span>
+</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-xl">work</span>
+<span class="text-sm font-medium">LinkedIn</span>
+</a>
+</div>
+<div class="flex flex-col items-center md:items-end gap-1">
+<p class="text-xs uppercase tracking-widest text-slate-400">Studio Location</p>
+<p class="text-sm font-medium" data-location="Paris, France">Paris, France</p>
+</div>
+</div>
+</footer>
+</body></html>
